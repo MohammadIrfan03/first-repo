@@ -1,0 +1,6 @@
+# Using the startup script
+./run.sh
+
+# Or manually
+source venv/bin/activate
+streamlit run app.py --server.port 8080
